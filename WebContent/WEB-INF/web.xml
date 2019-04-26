@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"   
+xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee   
+http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">  
+<description></description>
+
+<servlet>
+<display-name>SaveServlet</display-name>
+<servlet-name>SaveServlet</servlet-name>
+<servlet-class>com.serv.SaveServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>SaveServlet</servlet-name>
+<url-pattern>/servlet1</url-pattern>
+</servlet-mapping>
+
+<servlet>
+<display-name>EditServlet</display-name>
+<servlet-name>EditServlet</servlet-name>
+<servlet-class>com.serv.EditServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>EditServlet</servlet-name>
+<url-pattern>/servlet2</url-pattern>
+</servlet-mapping>
+
+<servlet>
+<display-name>EditServlet2</display-name>
+<servlet-name>EditServlet2</servlet-name>
+<servlet-class>com.serv.EditServlet2</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>EditServlet2</servlet-name>
+<url-pattern>/servlet3</url-pattern>
+</servlet-mapping>
+
+<servlet>
+<display-name>DeleteServlet</display-name>
+<servlet-name>DeleteServlet</servlet-name>
+<servlet-class>com.serv.DeleteServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>DeleteServlet</servlet-name>
+<url-pattern>/servlet4</url-pattern>
+</servlet-mapping>
+
+<servlet>
+<display-name>ViewServlet</display-name>
+<servlet-name>ViewServlet</servlet-name>
+<servlet-class>com.serv.ViewServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>ViewServlet</servlet-name>
+<url-pattern>/servlet5</url-pattern>
+</servlet-mapping>
+</web-app>
